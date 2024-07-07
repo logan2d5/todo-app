@@ -1,4 +1,4 @@
-# todo-app
+# Todo App
 
 > The purpose of this project is to find a way to quickly implement software prototypes.
 
@@ -17,4 +17,18 @@ pip install fastapi
 
 ```sh
 python main.py
+```
+
+## Frontend
+
+**Install dependencies:**
+
+```sh
+pnpm install
+```
+
+**Start the dev server:**
+
+```sh
+pnpm run dev
 ```
