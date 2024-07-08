@@ -1,13 +1,12 @@
 <script setup lang="ts">
-import { ref } from 'vue'
+import { getTodos } from '../apis/api'
 
-const items = ref([{ message: 'Foo' }, { message: 'Bar' }])
+getTodos().then(res => {
+  console.log(res)
+})
 </script>
 
 <template>
-  <li v-for="item in items">
-    {{ item.message }}
-  </li>
 </template>
 
 <style scoped></style>
