@@ -12,8 +12,12 @@
     "vue": "^3.4.29"
   },
   "devDependencies": {
+    "@unocss/preset-icons": "^0.61.3",
+    "@unocss/preset-uno": "^0.61.3",
+    "@unocss/transformer-directives": "^0.61.3",
     "@vitejs/plugin-vue": "^5.0.5",
     "typescript": "^5.2.2",
+    "unocss": "^0.61.3",
     "vite": "^5.3.1",
     "vue-tsc": "^2.0.21"
   }
