@@ -1,6 +1,7 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
 from main import data
+from fastapi.middleware.cors import CORSMiddleware
 
 
 class ToDo(BaseModel):
@@ -10,6 +11,13 @@ class ToDo(BaseModel):
 
 
 todo_api = FastAPI()
+todo_api.add_middleware(
+    CORSMiddleware,
+    allow_origins=['*'],
+    allow_credentials=True,
+    allow_methods=['*'],
+    allow_headers=['*'],
+)
 prefix = '/api'
 
 
