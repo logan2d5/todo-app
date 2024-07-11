@@ -1,6 +1,6 @@
 # Todo App
 
-> The purpose of this project is to find a way to quickly implement software prototypes.
+> ~~The purpose of this project is to find a way to quickly implement software prototypes.~~
 
 ## Backend
 
